@@ -20,7 +20,7 @@ pipeline{
         stage('Checkout') {
             steps {
                 git branch: "${params.BRANCH_NAME}",
-                    url: 'https://github.com/your-username/sample-maven-app.git'
+                    url: 'https://github.com/tejasvijain09/parameterized-pipeline.git'
             }
         }
 
